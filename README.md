@@ -80,7 +80,7 @@ flutter run
 
 [Liggia](https://www.linkedin.com/in/liggialima/)
 
-> If you found this project useful, if it helped you solve a problem or create another solution, or simply you liked it and you want to thank me, consider buying me a cup of :coffee: :smile:
+> If you found this project useful, if it helped you solve a problem or create another solution, or simply you liked it and you want to thank me, finance me and keep my alive by donating! :smile:
 >
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=F8R2Q5GT93MJN) 
 
