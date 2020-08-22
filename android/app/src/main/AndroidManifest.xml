@@ -1,4 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="br.com.gruposhelter.financia_mais">
     <!-- io.flutter.app.FlutterApplication is an android.app.Application that
          calls FlutterMain.startInitialization(this); in its onCreate method.
@@ -6,9 +7,10 @@
          additional functionality it is fine to subclass or reimplement
          FlutterApplication and put your custom class here. -->
     <application
-        android:name="io.flutter.app.FlutterApplication"
-        android:label="financia_mais"
-        android:icon="@mipmap/ic_launcher">
+        android:name="io.flutter.app.FinanciaMais"
+        android:label="Financia+"
+        android:icon="@mipmap/ic_launcher"
+        tools:ignore="MissingClass">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
