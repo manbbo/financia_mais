@@ -25,5 +25,4 @@ class Localizacao extends RequestFrame {
     // TODO: implement putFunction
     throw UnimplementedError();
   }
-
 }
