@@ -72,16 +72,14 @@ flutter run
 
 [Manbbo](https://github.com/manbbo) ([Instagram](https://www.instagram.com/elmanbbo)) ([Linkedin](https://www.linkedin.com/in/manbbo/))
 
-[Mishelle](https://github.com/Mishelliiii) ([Linkedin](https://www.linkedin.com/in/mishelle-sousa-3b8159135/))
-
-[Felipe](https://github.com/felipenjonas) ([Linkedin](https://www.linkedin.com/in/felipejonas/))
+[Mishelle](https://github.com/Mishelliiii) ([Instagram](https://www.instagram.com/mishellesouza)) ([Linkedin](https://www.linkedin.com/in/mishelle-sousa-3b8159135/))
 
 [Beatriz](https://www.linkedin.com/in/annabeatrizbergo/)
 
 [Liggia](https://www.linkedin.com/in/liggialima/)
 
 > If you found this project useful, if it helped you solve a problem or create another solution, or simply you liked it and you want to thank me, finance me and keep me alive by donating! :smile:
->
+
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=F8R2Q5GT93MJN) 
 
 ## Contributing
