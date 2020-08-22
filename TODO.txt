@@ -152,4 +152,4 @@ LOCALIZAÇÃO
 
 KEY: 2321da67-00e7-46e8-ba60-b373e535d304
 URL: "HTTPS://gateway.gr1d.io/sandbox/geofusion/placeslocalizacao/v1"
-GET "/v1/location?latitude={}&longitude={}&radius=50000&start={}&limit=1"
+GET "/v1/location?latitude={}&longitude={}&radius=50000&start=0&limit=1"
