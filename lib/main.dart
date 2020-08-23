@@ -1,6 +1,9 @@
 import 'package:financia_mais/layouts/navigator_handler.dart';
 import 'package:financia_mais/layouts/screens/invest_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:financia_mais/layouts/cadastro.dart';
+import 'package:financia_mais/layouts/ranking.dart';
+import 'package:financia_mais/layouts/investimentos.dart';
 
 void main() {
   runApp(MyApp());
@@ -16,8 +19,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: CustomScreenHandler(telas: [InvestScreen(), InvestScreen(), InvestScreen()],),
-      debugShowCheckedModeBanner: false,
+      home: investimentos()
     );
   }
 }

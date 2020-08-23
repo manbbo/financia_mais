@@ -195,8 +195,8 @@ class _InvestValueState extends State<InvestValue> {
                               signed: false
                           ),
                           inputFormatters: <TextInputFormatter>[
-                            FilteringTextInputFormatter.allow(RegExp(r'^\d+\,?\d{0,2}')),
-                            FilteringTextInputFormatter.singleLineFormatter,
+                            //FilteringTextInputFormatter.allow(RegExp(r'^\d+\,?\d{0,2}')),
+                           // FilteringTextInputFormatter.singleLineFormatter,
                           ], // Only numbers can be entered
                         ),
                       ),
