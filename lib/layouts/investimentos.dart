@@ -1,23 +1,18 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
-class Investimentos extends StatefulWidget {
+class MeusInvestimentos extends StatefulWidget {
   @override
-  _InvestimentosState createState() => _InvestimentosState();
+  _MeusInvestimentosState createState() => _MeusInvestimentosState();
 }
 
-class _InvestimentosState extends State<Investimentos> {
+class _MeusInvestimentosState extends State<MeusInvestimentos> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.cyanAccent,
       body: new Stack(
         children: <Widget>[
-          new Positioned(
-            child: Text.rich(new TextSpan( style: TextStyle(
-                fontSize: 20,
-            ))),
-          ),
           Container(
             padding: EdgeInsets.only(top: 320),
             child: Column(
@@ -45,7 +40,7 @@ class _InvestimentosState extends State<Investimentos> {
                               new Container(
                                 width: 340,
                                 height: 100,
-                                child: Image.asset('assets/images/moeda.png'),
+                                child: Image.asset('assets/images/moeda1.png'),
                               ),
                             ],
                           ),
@@ -54,7 +49,6 @@ class _InvestimentosState extends State<Investimentos> {
                     ),
                   ),
                 ),
-                new Container(height: 10,),
                 new Container(
                     padding: EdgeInsets.only(left:15),
                     width: MediaQuery.of(context).size.width,

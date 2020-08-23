@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class CustomScreenHandler extends StatefulWidget {
   List<Widget> telas;
 
-  int index = 1;
+  int index = 2;
 
   CustomScreenHandler({this.telas, Key key}) : super (key: key);
 
