@@ -1,12 +1,12 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
-class investimentos extends StatefulWidget {
+class Investimentos extends StatefulWidget {
   @override
-  _investimentosState createState() => _investimentosState();
+  _InvestimentosState createState() => _InvestimentosState();
 }
 
-class _investimentosState extends State<investimentos> {
+class _InvestimentosState extends State<Investimentos> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

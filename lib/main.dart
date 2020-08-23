@@ -1,15 +1,17 @@
 import 'package:financia_mais/layouts/navigator_handler.dart';
 import 'package:financia_mais/layouts/screens/invest_screen.dart';
+import 'package:financia_mais/requests/emprestimos.dart';
 import 'package:flutter/material.dart';
-import 'package:financia_mais/layouts/cadastro.dart';
-import 'package:financia_mais/layouts/ranking.dart';
-import 'package:financia_mais/layouts/investimentos.dart';
+import 'package:flutter/services.dart';
 
 void main() {
+  SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(statusBarColor: Colors.transparent));
+
   runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
+
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
@@ -19,7 +21,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: investimentos()
+      home: CustomScreenHandler(telas: [InvestScreen(), Emprestimos(), InvestScreen(), InvestScreen()],),
+      debugShowCheckedModeBanner: false,
     );
   }
 }

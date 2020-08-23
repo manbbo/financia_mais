@@ -1,12 +1,12 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
-class cadastroPage extends StatefulWidget {
+class Cadastro extends StatefulWidget {
   @override
-  _cadastroPageState createState() => _cadastroPageState();
+  _CadastroState createState() => _CadastroState();
 }
 
-class _cadastroPageState extends State<cadastroPage> {
+class _CadastroState extends State<Cadastro> {
   bool changed = false;
   @override
   Widget build(BuildContext context) {

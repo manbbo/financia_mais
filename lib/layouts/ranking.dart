@@ -1,12 +1,12 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
-class ranking extends StatefulWidget {
+class Ranking extends StatefulWidget {
   @override
-  _rankingState createState() => _rankingState();
+  _RankingState createState() => _RankingState();
 }
 
-class _rankingState extends State<ranking> {
+class _RankingState extends State<Ranking> {
 
   @override
   Widget build(BuildContext context) {

@@ -25,7 +25,7 @@ class _ChooseInvestState extends State<ChooseInvest> {
   @override
   Widget build(BuildContext context) {
     return Container(
-        padding: EdgeInsets.only(top: 30),
+        padding: EdgeInsets.only(top: 90),
         child: ListView.separated(itemBuilder: (BuildContext context, int index) {
           return Row(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -50,18 +50,18 @@ class _ChooseInvestState extends State<ChooseInvest> {
                             child: Icon(Icons.print, size: 70,),
                             alignment: Alignment.center,
                             height: 100,
-                            width: 120,
+                            width: 100,
                           ),
                           Column(
                             mainAxisAlignment: MainAxisAlignment.start,
                             children: [
                               Container(height: 20,),
                               Container(
-                                width: 200,
+                                width: 180,
                                 child: Text("Nome da Empresa", style: TextStyle(color: Colors.black, fontSize: 20, )),
                               ),
                               Container(
-                                width: 200,
+                                width: 180,
                                 child: Text("Lorem Ipsum is simply dummy text of the printing and "
                                     "typesetting industry. Lorem Ipsum has been the industry's "
                                     "standard dummy text ever since the 1500s, when an unknown "
