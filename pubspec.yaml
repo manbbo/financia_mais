@@ -8,8 +8,12 @@ version: 1.0.0+1
 environment:
   sdk: ">=2.7.0 <3.0.0"
 
+
 dependencies:
   http: ^0.12.2
+  google_maps_flutter: ^0.5.30
+  webview_flutter: ^0.3.22+1
+
   flutter:
     sdk: flutter
 

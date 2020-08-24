@@ -1,12 +1,3 @@
-SCORE:
-
-API Key: 66e6f038-a3d0-4fb9-a25e-de37acc54416
-URL: https://gateway.gr1d.io/sandbox/proScore/score/v1/
-Metodo:
-GET
-Request: "?tcpfcnpj={CPF / CNPJ}&tdatnsc={DATA NASCIMENTO DDMMYYYY}"
-
-
 CONTAS:
 
 KEY: 17fb7973-45b5-4a6a-84b0-a18ea2daf825

@@ -25,9 +25,9 @@ class _CustomScreenHandlerState extends State<CustomScreenHandler> {
         selectedItemColor: Colors.white,
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.pie_chart), title: Text("Dashboard")),
-          BottomNavigationBarItem(icon: Icon((Icons.monetization_on)), title: Text("Dashboard")),
-          BottomNavigationBarItem(icon: Icon(Icons.home), title: Text("Dashboard")),
-          BottomNavigationBarItem(icon: Icon(Icons.person), title: Text("Dashboard")),
+          BottomNavigationBarItem(icon: Icon((Icons.monetization_on)), title: Text("Score")),
+          BottomNavigationBarItem(icon: Icon(Icons.home), title: Text("Ranking")),
+          BottomNavigationBarItem(icon: Icon(Icons.person), title: Text("Perfil")),
         ],
         onTap: (int i) {setState(() {
           this.widget.index = i;
