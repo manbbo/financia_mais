@@ -1,5 +1,6 @@
 import 'package:financia_mais/layouts/screens/clippers.dart';
 import 'package:financia_mais/layouts/screens/mapping.dart';
+import 'package:financia_mais/requests/contas.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
@@ -170,7 +171,11 @@ class _MeusInvestimentosState extends State<MeusInvestimentos> {
                     ],
                   ),
                 ),
-                onTap: () {}, //TELA DE DADOS
+                onTap: () {
+                  Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) {
+                    return Contas();
+                  }));
+                }, //TELA DE DADOS
               )
             ],
           )

@@ -1,6 +1,7 @@
 import 'package:financia_mais/layouts/investimentos.dart';
 import 'package:financia_mais/layouts/navigator_handler.dart';
 import 'package:financia_mais/layouts/screens/invest_screen.dart';
+import 'package:financia_mais/requests/contas.dart';
 import 'package:financia_mais/requests/emprestimos.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: CustomScreenHandler(telas: [InvestScreen(), Emprestimos(), MeusInvestimentos(), MeusInvestimentos()],),
+      home: CustomScreenHandler(telas: [InvestScreen(), Emprestimos(), MeusInvestimentos(), Contas()],),
       debugShowCheckedModeBanner: false,
     );
   }
