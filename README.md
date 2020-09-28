@@ -1,8 +1,8 @@
 # Financia Mais
 
-[![GitHub stars](https://img.shields.io/github/stars/manbbo/call_for_help.svg?style=social&label=Star)](https://github.com/manbbo/call_for_help) 
-[![GitHub forks](https://img.shields.io/github/forks/manbbo/call_for_help.svg?style=social&label=Fork)](https://github.com/manbbo/call_for_help/fork) 
-[![GitHub watchers](https://img.shields.io/github/watchers/manbbo/call_for_help.svg?style=social&label=Watch)](https://github.com/manbbo/call_for_help) 
+[![GitHub stars](https://img.shields.io/github/stars/manbbo/financia_mais.svg?style=social&label=Star)](https://github.com/manbbo/financia_mais) 
+[![GitHub forks](https://img.shields.io/github/forks/manbbo/financia_mais.svg?style=social&label=Fork)](https://github.com/manbbo/financia_mais/fork) 
+[![GitHub watchers](https://img.shields.io/github/watchers/manbbo/financia_mais.svg?style=social&label=Watch)](https://github.com/manbbo/financia_mais) 
 [![GitHub followers](https://img.shields.io/github/followers/manbbo.svg?style=social&label=Follow)](https://github.com/manbbo)  
 
 > Financia+ é uma aplicação feita em Flutter pro Hacka Gr1d que foca em ajudar Pequenas e médias empresas com
