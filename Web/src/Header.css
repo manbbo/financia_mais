@@ -1,0 +1,39 @@
+.Header {
+    min-height: 20vh;
+    background-color: #43cd80;
+    min-width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+  
+  .Header-mainicon {
+    max-height: 20vh;
+    margin-left: 30vh;
+  }
+  
+  .Header-navicons {
+    min-height: 20vh;
+    min-width: max-content;
+    display: flex;
+    margin-right: 30vh;
+    margin-left: 100vh;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    font-size: calc(10px + 2vmin);
+ }
+
+ .inactive {
+    margin-right: 5vh;
+    color: #fff;
+    text-decoration: none;
+}
+  .active {
+    color:#228b22;
+    margin-right: 5vh;
+    white-space: pre-line;
+  }
+
+  
