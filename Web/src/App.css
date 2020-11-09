@@ -14,8 +14,8 @@
 }
 
 
-.App-link {
-  color: #61dafb;
+.App-link { 
+  color: #00b2ee; //////// colocar essa cor em algum lugar na outra "sessao"
 }
 
 @keyframes App-logo-spin {
