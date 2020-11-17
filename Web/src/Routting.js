@@ -1,10 +1,10 @@
 
 import { Route, Switch } from "react-router-dom";
 
-import App from './App';
-import Users from './Users'
-import Contact from './Contact'
-import Notfound from './Notfound'
+import App from './VIEWS/App';
+import Users from './VIEWS/Users'
+import Contact from './VIEWS/Contact'
+import Notfound from './VIEWS/Notfound'
 
 function Routting() {
   return (

@@ -1,5 +1,5 @@
 .Header {
-    min-height: 20vh;
+    min-height: 15vh;
     background-color: #43cd80;
     min-width: max-content;
     display: flex;
@@ -9,12 +9,12 @@
   }
   
   .Header-mainicon {
-    max-height: 20vh;
+    max-height: 15vh;
     margin-left: 30vh;
   }
   
   .Header-navicons {
-    min-height: 20vh;
+    min-height: 15vh;
     min-width: max-content;
     display: flex;
     margin-right: 30vh;

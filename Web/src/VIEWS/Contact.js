@@ -1,13 +1,13 @@
-import logo from './logo.svg';
+import logo from '../logo.svg';
 import './App.css';
 
-function Notfound() {
+function Contact() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          NOTFOUND
+          CONTACT
         </p>
         <a
           className="App-link"
@@ -22,4 +22,4 @@ function Notfound() {
   );
 }
 
-export default Notfound;
+export default Contact;
