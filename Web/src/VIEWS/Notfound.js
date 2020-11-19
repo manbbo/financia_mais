@@ -1,23 +1,15 @@
-import logo from '../logo.svg';
+
 import './App.css';
 
 function Notfound() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          NOTFOUND
+      <p >
+          <text style={{fontSize: 35}}>
+          A PÁGINA QUE ESTÁ PROCURANDO NÃO ESTÁ DISPONÍVEL OU O LINK QUE DIGITOU ESTÁ ERRADO
+          </text> 
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        
     </div>
   );
 }

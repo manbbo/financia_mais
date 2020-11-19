@@ -1,28 +1,54 @@
 .App {
   text-align: center;
+  background-color: #E3EDFD;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 60vmin;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 1s linear;
-  }
+.App-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-
-.App-link { 
-  color: #228b22; /* //////// colocar essa cor em algum lugar na outra "sessao". Cores: https://www.color-hex.com/*/
+.App-info-text1 {
+  font-size: 45px;
+  word-wrap: break-word;
+  max-width: 600px;
+  font-weight: bolder;
+  color: #2F80ED;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-info-text2 {
+  font-size: 20px;
+  word-wrap: break-word;
+  align-items: flex-end;
+  text-align-last: end;
+  margin-left: 200px;
+  max-width: 600px;
+  color: #2F80ED;
+}
+
+.App-info-button {
+  background-color: transparent; /* Green */
+  color: #2F80ED;
+  padding: 25px 232px;
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 21px;
+  font-weight: bolder;
+  border: 1px solid #2F80ED;
+  box-sizing: border-box;
+  border-radius: 40px;
+  transform: matrix(1, 0, -0.01, 1, 0, 0);
 }

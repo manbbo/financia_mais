@@ -3,6 +3,8 @@
 import React from "react";
 import Axios from '../API/Axios';
 
+import logo from '../assets/images/logofirstpage.svg'
+
 class App extends React.Component {
   state = {
     name: '',
@@ -43,14 +45,13 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
-        <form onSubmit={this.handleSubmit}>
-          <label>
-            Person Name:
-            <input type="text" name="Name"  />
-          </label>
-          <button type="submit">Add</button>
-        </form>
+      <div className = "App">
+        <div className="App-info">
+          <text className="App-info-text1" style={{fontStyle: "italic"}}>Quanto custa SEU SONHO?</text>
+          <text className="App-info-text2">Com o Financa+ você consegue realizar! </text>
+          <button className="App-info-button">Simule agora!</button>
+        </div>
+        <img className="App-logo" src={logo} alt ="logo"/>
       </div>
     )
   }

@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router } from "react-router-dom";
 
 import Header from "./VIEWS/Header";
+import Footer from "./VIEWS/Footer"
 import Routting from './Routting';
 
 ReactDOM.render(
@@ -12,6 +13,7 @@ ReactDOM.render(
     <div>
       <Header />
       <Routting/>
+      <Footer />
     </div>
   </Router>,
   document.getElementById('root')

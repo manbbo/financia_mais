@@ -10,8 +10,11 @@ function Routting() {
   return (
     <Switch>
         <Route exact path="/" component={App} />
-        <Route path="/users" component={Users} />
-        <Route path="/contact" component={Contact} />
+        <Route path="/quem-somos" component={Users} />
+        <Route path="/atendimento" component={Contact} />
+        <Route path="/blog" component={Contact} />
+        <Route path="/emprestimo" component={Contact} />
+        <Route path="/investimento" component={Contact} />
         <Route component={Notfound} />
       </Switch>
   );
