@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   background-color: #E3EDFD;
-  min-height: 80vh;
+  min-height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -37,12 +37,30 @@
   color: #2F80ED;
 }
 
-.App-info-button {
-  background-color: transparent; /* Green */
+.App-info-simulate {
+  background-color: transparent; 
   color: #2F80ED;
   padding: 25px 232px;
   margin-top: 20px;
   text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  min-width: 500px;
+  font-size: 21px;
+  font-weight: bolder;
+  border: 1px solid #2F80ED;
+  box-sizing: border-box;
+  border-radius: 40px;
+  transform: matrix(1, 0, -0.01, 1, 0, 0);
+}
+
+.App-info-invest {
+  background-color: #2F80ED; 
+  color: #E3EDFD;
+  padding: 25px 220px;
+  margin-top: 20px;
+  text-align: center;
+  min-width: 500px;
   text-decoration: none;
   display: inline-block;
   font-size: 21px;

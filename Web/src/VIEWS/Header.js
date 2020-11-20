@@ -22,10 +22,10 @@ function Header() {
                 Blog
             </NavLink>
             <NavLink className="inactive" activeClassName="active" to="/emprestimo" style={{ textDecoration: 'none' }}>
-                Empréstimos
+                Simule já!
             </NavLink>
             <NavLink className="inactive" exact activeClassName="active" to="/investimento" style={{ textDecoration: 'none' }}>
-                Investimento
+                Área de Investimentos
             </NavLink>
             
             </nav>

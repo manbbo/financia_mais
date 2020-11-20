@@ -1,0 +1,72 @@
+.Loan {
+    text-align: center;
+    background-color: #E3EDFD;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Loan-logo {
+    height: 60vmin;
+    pointer-events: none;
+  }
+  
+  .Loan-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Loan-info-text1 {
+    font-size: 45px;
+    word-wrap: break-word;
+    max-width: 600px;
+    font-weight: bolder;
+    color: #2F80ED;
+  }
+  
+  .Loan-info-text2 {
+    font-size: 20px;
+    word-wrap: break-word;
+    align-items: flex-end;
+    text-align-last: end;
+    max-width: 600px;
+    color: #2F80ED;
+  }
+  
+  .Loan-info-simulate {
+    background-color: transparent; 
+    color: #2F80ED;
+    padding: 25px 200px;
+    margin-top: 20px;
+    min-width: 700px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 21px;
+    font-weight: bolder;
+    border: 1px solid #2F80ED;
+    box-sizing: border-box;
+    border-radius: 40px;
+    transform: matrix(1, 0, -0.01, 1, 0, 0);
+  }
+  
+  .Loan-info-button {
+    background-color: #2F80ED; 
+    color: #E3EDFD;
+    padding: 10px ;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 27px;
+    font-weight: bolder;
+    border: 1px solid #2F80ED;
+    box-sizing: border-box;
+    border-radius: 40px;
+    transform: matrix(1, 0, -0.01, 1, 0, 0);
+  }
