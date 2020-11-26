@@ -27,7 +27,7 @@ class Loan extends React.Component {
             shrink: true,
           }}/>
           <br></br>
-          <button className="Loan-info-simulate">CONTAR O QUE VOU FAZER</button>
+          <a href='http://localhost:3000/emprestimo-signup'><button className="Loan-info-simulate">CONTAR O QUE VOU FAZER</button></a>
           <button className="Loan-info-simulate">PEDIR EMPRÉSTIMO</button>
               
           <br></br>

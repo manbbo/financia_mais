@@ -1,11 +1,14 @@
 import axios from 'axios';
 
-class AxiosInstance {
-  constructor(props) {
-    pipelineURL: ""
-    aditionalVals : ""
-    aditionalHeaders : []
-  }
+//class  {
+  
+const AxiosInstance = axios.create({
+    baseURL: `https://cors-anywhere.herokuapp.com/https://gateway.gr1d.io/sandbox/easycredito/v2`,
+    // signup /process/signup
+    //{ "accept" : "application/json", 
+    //"Api-Key" ou "X-Api-Key" : "9495c25e-6dc9-4698-8f1a-8c56bce6e93e",
+    //"Content-Type" : "application/json"  }
+  });
 
   /** post update
    * {
@@ -106,15 +109,6 @@ class AxiosInstance {
 }
      */
 
-  theAxios = axios.create({
-    baseURL: `https://gateway.gr1d.io/sandbox/easycredito/v2/${pipelineURL}`,
-    headers: aditionalHeaders
-    // signup /process/signup
-    //{ "accept" : "application/json", 
-    //"Api-Key" ou "X-Api-Key" : "9495c25e-6dc9-4698-8f1a-8c56bce6e93e",
-    //"Content-Type" : "application/json"  }
-  });
-
   //axiosGet = axios.create({
   //  baseURL: `https://gateway.gr1d.io/sandbox/easycredito/v2/process/status/${id}`,
   //  headers: 
@@ -135,6 +129,5 @@ class AxiosInstance {
     // get
     //{ "accept" : "application/json", "Content-Type" : "application/json", "Api-Key" : "9495c25e-6dc9-4698-8f1a-8c56bce6e93e" }
   //});
-}
 
 export default AxiosInstance

@@ -6,6 +6,7 @@ import Users from './VIEWS/Users'
 import Contact from './VIEWS/Contact'
 import Notfound from './VIEWS/Notfound'
 import Loan from "./VIEWS/Loan";
+import SignUpData from "./MODELS/SignUpData";
 
 function Routting() {
   return (
@@ -15,6 +16,7 @@ function Routting() {
         <Route path="/atendimento" component={Contact} />
         <Route path="/blog" component={Contact} />
         <Route path="/emprestimo" component={Loan} />
+        <Route path="/emprestimo-signup" component={SignUpData} />
         <Route path="/investimento" component={Contact} />
         <Route component={Notfound} />
       </Switch>

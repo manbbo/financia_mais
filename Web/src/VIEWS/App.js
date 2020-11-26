@@ -2,11 +2,9 @@ import React from "react";
 
 import logo from '../assets/images/logofirstpage.svg'
 import './App.css';
+//import AxiosInstance from '../API/Axios'
 
 class App extends React.Component {
-  state = {
-    name: '',
-  }
 
   render() {
     return (
